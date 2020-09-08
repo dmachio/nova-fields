@@ -104,7 +104,7 @@ class Row extends Field
      * @param  mixed|null  $resolveCallback
      * @return void
      */
-    public function __construct($name, $fields, $attribute = null, $resolveCallback = null)
+    public function __construct($name, $fields = [], $attribute = null, $resolveCallback = null)
     {
         parent::__construct($name, $attribute, $resolveCallback);
 
